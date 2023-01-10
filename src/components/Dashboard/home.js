@@ -63,6 +63,7 @@ const Home = () => {
 
     return(
     <div>
+        <h2>This dashboard is only an example to demonstrate the use of Google Firebase</h2>
         <h1>You are logged in!</h1>
 
         <form ref={form} onSubmit={submitPortfolio}> 

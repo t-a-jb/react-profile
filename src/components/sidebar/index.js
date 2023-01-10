@@ -103,7 +103,7 @@ const Sidebar = () => {
                                 </a>
                             </li>
                             <li>
-                                <a className='mario-logo'  href="https://t-a-jb.github.io/mario_game/">
+                                <a className='mario-logo' target="_blank" rel="noreferrer" href="https://t-a-jb.github.io/mario_game/">
                                     <img src={MarioLogo}/>
                                 </a>
                             </li>

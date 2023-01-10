@@ -27,6 +27,8 @@ const Photography = () => {
     return (
         <div>
 
+            <h2 className='description-text'>photography examples using <a target="_blank" rel="noreferrer" href='https://swiperjs.com/'>Swiper</a> JavaScript library</h2>
+
             <Loader type="line-scale" color="rgb(169, 255, 3)" width={500} />
 
             <div className='swiper'>

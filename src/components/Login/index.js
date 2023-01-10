@@ -38,6 +38,7 @@ function logUserIn(event) {
 
     return(
     <div>
+        <h2>This dashboard is only an example to demonstrate the use of Google Firebase</h2>
 
         <div className='login-form'>
             <h2>Login</h2>

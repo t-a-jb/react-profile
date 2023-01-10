@@ -27,6 +27,8 @@ const Contact = () => {
                             <AnimatedLetters strArray={"/ contact".split('')} startIdx={1} />
                         </h1>
 
+                        <h2 className='form-text'>Contact form is a code example only, please send me an email.</h2>
+
 
                         <div className='contact-form'>
                             <form>
@@ -47,8 +49,7 @@ const Contact = () => {
                     <div className='right-side'>
                         <div className='map-info'>
                             <p>
-                                Working remotely<br></br>
-                                Based in Melbourne<br></br>
+                                Based in Melbourne, Victoria<br></br>
                                 <span>tristan.jeffrey-bailey@outlook.com</span>
                             </p>
                         </div>

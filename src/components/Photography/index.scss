@@ -1,6 +1,17 @@
 @import '../../scss/variables.scss';
 
+.description-text {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 2rem;
+  opacity: 0;
+  animation: fadeIn 2s 2s forwards;
 
+  a {
+    color: $grey20;
+    text-decoration: none;
+  }
+}
 
 .swiper {
     width: 800px;

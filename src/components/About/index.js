@@ -25,9 +25,9 @@ const About = () => {
                     <br />
                     <p className='para-two'>Extensive professional experience working on Australia’s most ambitious infrastructure projects as a Senior Civil Engineer.</p>
                     <br />
-                    <p className='para-three'>Seeking to leverage strong problem solving and analytical skills in the software dev space.</p>
+                    <p className='para-three'>Graduated from the Victorian Government’s competitive Digital Jobs program with a certification in JavaScript Development from General Assembly.</p>
                     <br />
-                    <p className='para-four'>Graduated from the Victorian Government’s competitive Digital Jobs program with a certification in JavaScript Development from General Assembly.</p>
+                    <p className='para-four'>Seeking opportunities to leverage my strong problem solving and analytical skills to contribute to meaningful projects.</p>
                     <br />
                 </div>
             </div>
