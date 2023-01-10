@@ -1,0 +1,129 @@
+@import '../../scss/variables.scss';
+
+
+.contact-heading {
+    margin-top: 2%;
+    padding: 2rem;
+    align-items: center;
+    text-align: center;
+    color: rgb(169, 255, 3);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.about-page {
+    padding: 2% 1rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+
+    .container {
+        display: flex;
+        flex-direction: row; //default
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+
+    .left-side {
+        padding: 0 20px;
+        flex: 1;
+        min-width: 300px;
+
+    }
+
+    .right-side {
+        padding: 0 20px;        
+        flex: 1;
+        position: relative;
+        min-width: 300px;
+
+    }
+
+
+    .contact-form {
+        padding: 20px 0;
+        opacity: 0;
+        animation: fadeIn 1s 2s forwards;
+
+        .form-row {
+            margin-bottom: 10px;
+            display: flex;
+        }
+
+        input, textarea {
+            background-color: rgba($grey20,0.1);
+            padding: 10px 20px;
+            border: 0;
+            border-bottom: solid 1px $white;
+            width: 100%;
+            font-family: sans-serif;
+        }
+
+        input[type=text] {
+            margin-right: 4px;
+        }
+
+        input[type=email] {
+            margin-left: 4px;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        .form-submit {
+            cursor: pointer;
+            background-color: $primary-color;
+            font-weight: bold;
+            &:hover {
+                background-color: $white;
+                transition: background-color 0.3s;
+            }
+        }
+    }
+
+    .map-wrapper {
+        background-color: rgb($grey20, 0.1);
+        width: 100%;
+        height: 700px;
+
+        .leaflet-container {
+            width: 100%;
+            height: 100%;
+            position: relative;
+
+            opacity: 0;
+            animation: backInRight 1s 3s forwards;
+        }
+
+        opacity: 0;
+        animation: fadeIn 2s 3s forwards;
+    }
+
+    .map-info {
+        background-color: $black;
+        width: 370px;
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        color: $white;
+        font-size: 17px;
+        line-height: 30px;
+        font-family: Helvetica, sans-serif;
+        padding: 0 10px;
+        z-index: 9999;
+        span {
+            color: $primary-color;
+        }
+
+        opacity: 0;
+        animation: fadeIn 2s 3s forwards;
+
+    }
+
+
+
+// end about page
+}

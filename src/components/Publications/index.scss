@@ -1,0 +1,71 @@
+
+
+.publications-heading {
+    margin-top: 2%;
+    padding: 2rem;
+    align-items: center;
+    text-align: center;
+    color: rgb(169, 255, 3);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+
+.portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    // border: solid 1px red;
+    box-sizing: border-box;
+
+    
+}
+
+.portfolio-item {
+    img {
+        width: 200px;
+        height: 250px;
+        padding: 1rem;
+    }
+
+    h3 {
+        padding: 1rem;
+    }
+
+    p {
+        padding: 1rem;
+        
+
+    }
+
+    button {
+        margin-top: auto;
+        font-size: 1rem;
+        color: white;
+        background-color: rgba(100, 100, 100, 0.6);
+        cursor: pointer;
+        border: none;
+        padding: 0.5rem;
+    }
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+    margin: 2rem;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5%;
+
+    opacity: 0;
+    animation: fadeIn 2s 0s forwards;
+
+    // opacity: 0;
+    // animation: backInRight 1s 1s forwards;
+}

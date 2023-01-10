@@ -1,0 +1,42 @@
+@import '../../scss/variables.scss';
+
+
+.text-animate {
+    display: inline-block;
+    min-width: 15px;
+    opacity: 0;
+
+    animation: bounceIn 1s 1s forwards; 
+}
+
+@for $i from 1 through 40 {
+    .text-animate.idx-#{$i} {
+        animation-delay: #{calc(($i / 10 + 1)/1)}s;
+    }
+}
+
+
+
+.reveal {
+    position: relative;
+    opacity: 0;
+  }
+  
+  .reveal.active {
+    opacity: 1;
+  }
+  .active.fade-bottom {
+    animation: fade-bottom 2s ease-in;
+  }
+
+  @keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+

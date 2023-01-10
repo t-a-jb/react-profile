@@ -1,0 +1,79 @@
+/* portfolio and career pages */
+
+.portfolio.content-container,
+.career.content-container {
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.project,
+.work {
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem;
+    width: 400px;
+    height: 430px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5%;
+
+    opacity: 0;
+    animation: fadeIn 2s 4s forwards;
+}
+
+.work {
+    height: 450px;
+}
+
+body .career-heading,
+body .portfolio-heading {
+    margin-top: 2%;
+    padding: 2rem;
+    color: rgb(169, 255, 3);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.org,
+.project-name {
+    padding: 0.5rem;
+}
+
+.project a {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
+.career-img-container,
+.project-img-container {
+    padding: 1rem;
+}
+
+.project-img,
+.work-img {
+    height: 300px;
+    width: 300px;
+    object-fit: scale-down;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.work-img {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.project-img {
+    padding: 0;
+}
+
+.civil-project-img {
+    padding: 0;
+}
+
+.project-name {
+    /* padding: 0.5rem 0; */
+}
+
+.project-name a {
+    text-decoration: none;
+}
